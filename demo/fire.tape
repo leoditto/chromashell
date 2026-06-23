@@ -1,0 +1,37 @@
+Output demo/fire.gif
+
+Set Shell zsh
+Set FontSize 16
+Set Width 1200
+Set Height 700
+Set Framerate 30
+Set TypingSpeed 80ms
+
+Hide
+Type `export PATH="$PWD/target/release:$PATH"`
+Enter
+Sleep 500ms
+Show
+
+Type "cs fire"
+Enter
+Sleep 1s
+
+Type "echo 'Terminal on fire'"
+Enter
+Sleep 800ms
+
+Type "ls -la src/effects/"
+Enter
+Sleep 800ms
+
+Type "wc -l src/*.rs"
+Enter
+Sleep 1s
+
+Hide
+Type `exit`
+Enter
+Sleep 300ms
+Ctrl+\
+Sleep 500ms
